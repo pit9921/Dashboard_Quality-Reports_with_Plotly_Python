@@ -11,6 +11,7 @@ The article also addresses the limitation of Plotly in creating interactive tabl
 In conclusion, the article summarizes key lessons learned, including the balance between complexity and simplicity, security considerations for standalone HTML files, and the flexibility offered by these techniques. Ultimately, it showcases how combining Plotly, CSS, and JavaScript can result in engaging and informative interactive data reports.
 
 ![Uploading Dashboard-Open-Quality-Reports.gif…]()
+
 ![Screenshot 2023-09-02 222006](https://github.com/pit9921/Dashboard---Quality-Reports/assets/77811022/66a7b682-6bbe-4588-88b9-da35ce42d375)
 
 

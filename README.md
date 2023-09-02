@@ -1,6 +1,6 @@
 # Dashboard---Quality-Reports
 
-Read an article on Medium: https://medium.com/me/stats/post/bede89d38d5e
+Read an article on Medium: [[https://medium.com/me/stats/post/bede89d38d5e](https://medium.com/p/bede89d38d5e)](https://medium.com/p/bede89d38d5e)
 
 This article explores the art of creating interactive Plotly Reports using CSS and JavaScript. It begins by emphasizing the importance of interactive data visualization as data sets become more complex. Plotly, a powerful Python framework, is introduced as a key tool for building interactive reports. The article then delves into practical implementation, starting with the layout of an interactive report and a use-case scenario involving open quality reports.
 

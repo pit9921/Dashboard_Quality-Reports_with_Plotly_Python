@@ -12,3 +12,7 @@ In conclusion, the article summarizes key lessons learned, including the balance
 
 ![Uploading Dashboard-Open-Quality-Reports.gif…]()
 
+To check the performance download from repository following files: 
+- index.html
+- script.js
+- style.css

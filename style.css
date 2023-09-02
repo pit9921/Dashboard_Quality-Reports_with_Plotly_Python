@@ -1,0 +1,191 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px auto; /* Center the table horizontally */
+    font-size: 1em;
+    color: #0F2DB3;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    border: none; /* Remove default border */
+}
+
+thead tr {
+    background-color: #0F2DB3;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: none; /* Remove default borders from table cells */
+    border-bottom: 1px solid #dddddd; /* Add bottom border to separate rows */
+    border: 1px solid #d3d3d3;
+
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #0F2DB3;
+}
+
+tbody tr.active-row {
+    font-weight: bold;
+    color: #0F2DB3;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 25% 1fr; /* 25% for buttons, 1fr for DataTable and child */
+
+}
+
+.child {
+    flex: 1; /* Distribute available space equally among children */
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0.7;
+    }
+}
+html, body {
+    margin: 20px;
+    padding: 0px;
+}
+
+  .header-content {
+    text-align: left;
+  }
+
+  .logo-img {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+
+
+.footer {
+  position: relative;
+
+  top: 70px;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  background: #252526;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+}
+
+.container-flex {
+			display: flex;
+			align-items: center; /* Center vertically */
+			justify-content: space-between;
+			margin: 0 auto; /* Center the container horizontally */
+		}
+
+		.image {
+			width: 40px; /* Set the width as needed */
+			height: auto; /* Maintain aspect ratio */
+			margin-right: 20px; /* Add some space between image and header */
+		}
+
+.image1 {
+    display: inline-block; /* Display as inline-block to keep elements on the same line */
+    margin-right: 5px;
+}
+
+.image1 img {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+}
+
+		/* Style the header */
+		h1 {
+
+			padding: 10px; /* Add some padding to the header for better visibility */
+			margin: 0; /* Remove default margin for the header */
+		}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-title {
+    margin-left: 10px;
+}
+
+.custom-button-color {
+    color: #0F2DB3;
+}
+
+.blue-text {
+  color: #0F2DB3;
+}
+
+.parent.flex-parent {
+    border-radius: 10px; /* Adjust the value for the desired roundness */
+    overflow: hidden; /* Ensure that content doesn't extend beyond rounded corners */
+}
+
+    .dataTables_wrapper .dataTables_scrollBody table {
+      width: 100% !important; /* Set the table width to 100% of the parent container */
+    }
+
+/* Custom styling for the "Female" button */
+.bg-B00020 {
+  background-color: #E00000 !important;
+  /* Add any additional styling here */
+}
+
+/* Custom styling for the "Filter Female" button */
+.text-white {
+  color: white !important;
+}
+
+/* Add margin-right to the "Alle Spalten anzeigen" button */
+.custom-button-color:nth-child(2) {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+.custom-button-color:nth-child(6) {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+.icon-container {
+  position: fixed;
+  top: 40px;
+  right: -40px; /* Adjust this value as needed */
+  animation: moveIcon 6s linear infinite;
+}
+
+.checkmark-icon {
+  font-size: 24px;
+}
+
+@keyframes moveIcon {
+  0%, 100% {
+    right: 180px; /* Adjust this value to control the ending position */
+  }
+  50% {
+    right: calc(5% - 10px); /* Adjust this value to control the middle position */
+  }
+}
+
+
+
+
+

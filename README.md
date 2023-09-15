@@ -3,7 +3,7 @@
 
 Read an article on Medium: https://medium.com/p/bede89d38d5e
 
-This article explores the art of creating interactive Plotly Reports using CSS and JavaScript. It begins by emphasizing the importance of interactive data visualization as data sets become more complex. Plotly, a powerful Python framework, is introduced as a key tool for building interactive reports. The article then delves into practical implementation, starting with the layout of an interactive report and a use-case scenario involving open quality reports.
+This article explores the art of creating interactive Python Plotly Reports supercharged with CSS and JavaScript. It begins by emphasizing the importance of interactive data visualization as data sets become more complex. Plotly, a powerful Python framework, is introduced as a key tool for building interactive reports. The article then delves into practical implementation, starting with the layout of an interactive report and a use-case scenario involving open quality reports.
 
 Data acquisition and preparation are discussed, including the creation of a mock dataset. The article highlights the creation of interactive Plotly charts, such as horizontal bar charts and donut charts, while addressing limitations in native Plotly interactivity. A unique challenge arises when attempting to enable category-based filtering in a donut chart, leading to a discussion of alternative solutions.
 

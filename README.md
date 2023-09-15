@@ -14,7 +14,9 @@ In conclusion, the article summarizes key lessons learned, including the balance
 ![Screenshot 2023-09-02 222006](https://github.com/pit9921/Dashboard---Quality-Reports/assets/77811022/66a7b682-6bbe-4588-88b9-da35ce42d375)
 
 
-To check the performance download from repository following files: 
+To check the performance download from repository following files (in the same folder): 
 - index.html
 - script.js
 - style.css
+
+and run the index.html file.

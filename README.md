@@ -1,4 +1,5 @@
-# Dashboard---Quality-Reports
+# Dashboard_Quality-Reports_with_Plotly_Python
+
 
 Read an article on Medium: https://medium.com/p/bede89d38d5e
 
